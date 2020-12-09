@@ -1,0 +1,4 @@
+Highest score: 1
+Games Played: 8
+Win Rate: 75 %
+ Wins: 6
