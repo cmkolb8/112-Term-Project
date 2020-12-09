@@ -76,13 +76,9 @@ def calculateXY(mode, xy, count):
         yDist = abs(spot[1] - mode.enemySold[0][1])
         for i in range(len(mode.enemySold)): 
             temp = enemy.dist(spot[0], spot[1], mode.enemySold[i][0], mode.enemySold[i][1])
-            print(temp)
-            print(mode.enemySold)
-            print(i)
             if(temp < smallest):
                 smallest = temp
                 current = i 
                 xDist = abs(spot[0] - mode.enemySold[i][0])
                 yDist = abs(spot[1] + mode.enemySold[i][1])
-        print(current)
         return (xDist, yDist)
